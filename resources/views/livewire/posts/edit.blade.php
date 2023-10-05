@@ -11,7 +11,7 @@ Edit Post - Belajar Livewire 3 di SantriKoding.com
 
                         <div class="form-group mb-4">
 
-                            <label class="fw-bold">GAMBAR</label>
+                            <label class="fw-bold">Image</label>
                             <input type="file" class="form-control @error('image') is-invalid @enderror" wire:model="image">
 
                             <!-- error message untuk title -->
